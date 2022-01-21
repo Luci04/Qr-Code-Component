@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-gray);
+  height: 100vh;
+  width: 100vw;
+  font-size: 15px;
+  font-family: "Outfit";
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: var(--white);
+  width: 300px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.container img {
+  border-radius: 15px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.text-content {
+  margin: 25px 0px 10px 0px;
+  text-align: center;
+}
+
+.text-content h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--dark-blue);
+}
+
+.text-content p {
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  color: var(--grayish-blue);
+  padding: 10px;
+}
+
+.attribution {
+  position: fixed;
+  inset: auto 0 0 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: white;
+}
